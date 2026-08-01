@@ -8,7 +8,7 @@ body{
     font-family:'Poppins',sans-serif;
     background: #030712;
     color: white;
-    min-height: 100vh;
+    min-height: 105vh;
 }
 
 nav{
@@ -105,7 +105,7 @@ nav ul li a:hover::after{
 .hero{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     background: transparent center/cover no-repeat;
     background-size: cover;
     background-position: center;
@@ -257,7 +257,7 @@ transform:translateY(0px);
 }
 
 .about{
-    min-height:100vh;
+    min-height:105vh;
     background:transparent;
     position:relative;
     overflow:hidden;
@@ -296,7 +296,7 @@ transform:translateY(0px);
 }
 
 .parallax-one{
-    height:100vh;
+    height:105vh;
     background-image:url("./Images/R.jpg");
     background-size:cover;
     background-position:center;
@@ -335,7 +335,7 @@ color:#e2e8f0;
 
 .solar-gateway{
     position:relative;
-    height:100vh;
+    height:105vh;
     background:url("./Images/500004-space-earth-sun-solar-system-planets-universe.jpg");
     background-size:cover;
     background-position:center;
@@ -415,7 +415,7 @@ color:#e2e8f0;
 }
 
 .earth-section{
-    min-height:100vh;
+    min-height:105vh;
     background:url("./Images/earth-space-background_838754-4208.avif");
     background-size:cover;
     background-position:center;
@@ -454,7 +454,7 @@ color:#e2e8f0;
 .earth-image img{
     width:420px;
     animation:
-        rotateEarth 70s linear infinite,
+        rotateEarth 60s linear infinite,
         floatEarth 6s ease-in-out infinite;
     filter:drop-shadow(0 0 5px #3b82f6);
 }
@@ -469,6 +469,17 @@ color:#e2e8f0;
     transparent 70%);
     filter:blur(70px);
     z-index:-1;
+}
+
+@keyframes rotateEarth{
+
+from{
+transform:rotate(0deg);
+}
+
+to{
+transform:rotate(360deg);
+}
 }
 
 @keyframes floatEarth{
@@ -495,6 +506,7 @@ transform:translateY(0);
 
 .earth-content{
     width:50%;
+    margin-top: 45px;
 }
 
 .earth-subtitle{
@@ -539,7 +551,7 @@ transform:translateY(0);
 }
 
 .moon-section{
-    min-height:100vh;
+    min-height:105vh;
     background:url("./Images/wp5561770.jpg");
     background-size:cover;
     background-position:center;
@@ -653,7 +665,7 @@ box-shadow:0 0 30px rgba(255,255,255,.35);
 
 .mars-section{
 
-    min-height:100vh;
+    min-height:105vh;
 
     background:url("./Images/72cbe31328dc80466f83d72d15e299fc.jpg");
 
@@ -714,6 +726,7 @@ box-shadow:0 0 30px rgba(255,255,255,.35);
     display:flex;
 
     justify-content:center;
+    margin-top: 80px;
 
 }
 
@@ -768,6 +781,7 @@ transform:translateY(-20px);
 .mars-content{
 
     width:50%;
+    margin-top: 90px;
 
 }
 
@@ -839,13 +853,9 @@ box-shadow:0 0 25px rgba(200,100,50,.5);
 
 }
 
-/*=========================
-        SATURN
-==========================*/
-
 .saturn-section{
 
-    min-height:100vh;
+    min-height:105vh;
 
     background:url("./Images/R\ \(1\).jpg");
 
@@ -974,7 +984,8 @@ transform:translateY(-20px);
     font-weight:600;
 
     margin-bottom:20px;
-    margin-top: 50px;
+
+    margin-top: 60px;
 
 }
 
@@ -1036,7 +1047,7 @@ box-shadow:0 0 30px rgba(251,191,36,.5);
 
 .blackhole-section{
 
-    min-height:100vh;
+    min-height:105vh;
 
     background:url("./Images/black-hole-nebula-space-background-wallpaper_849102-259.avif");
 
@@ -1125,7 +1136,7 @@ margin-bottom:50px;
 
 .future-section{
 
-    min-height:100vh;
+    min-height:105vh;
 
     background:url("./Images/stars-planets-fantasy-landscapes-of-the-future-futuristic-space-sci-fi-abstract-background-sci-fi-landscape-with-planets-neon-lights-cool-planets-3d-render-free.jpeg");
 
@@ -1178,7 +1189,8 @@ margin-bottom:50px;
     font-weight:600;
 
     margin-bottom:20px;
-    margin-top: 80px;
+
+    margin-top: 50px;
 
 }
 
@@ -1269,7 +1281,7 @@ border-radius: 25px;
 
 .contact-section{
 
-    min-height:100vh;
+    min-height:105vh;
 
     background:url("");
 
